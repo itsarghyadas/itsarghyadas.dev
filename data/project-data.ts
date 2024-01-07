@@ -6,6 +6,7 @@ const projectData = [
       "Chatbot UI + google search and a AI image generation platform + anonymous gallery for sharing your generated images + prompts.",
     url: "https://github.com",
     status: "Archived",
+    techStack: "React + Node + Express + MongoDB",
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ const projectData = [
     description: "Design + tailwindkit for indie makers.",
     url: "https://github.com",
     status: "Active",
+    techStack: "React + Vite + TailwindCSS",
   },
   {
     id: 3,
@@ -20,6 +22,7 @@ const projectData = [
     description: "A website redesign.",
     url: "https://github.com",
     status: "Archived",
+    techStack: "React + Vite + TailwindCSS",
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ const projectData = [
       "This is a twitter tool with AutoDM feature to giveaway and pre-launch your product.",
     url: "https://github.com",
     status: "Active",
+    techStack: "NextJS + TailwindCSS + shadcn",
   },
 ];
 

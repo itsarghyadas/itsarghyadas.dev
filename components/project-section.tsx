@@ -62,7 +62,7 @@ export default function ProjectSection() {
                   </div>
                   <div className="techstack__content border-t border-dashed border-neutral-300/30 p-3.5 py-2 dark:border-neutral-800/50">
                     <h3 className="font-geistMono text-xs font-medium text-teal-500">
-                      Nextjs + Tailwindcss + MongoDB
+                      {project.techStack}
                     </h3>
                   </div>
                 </div>
