@@ -14,7 +14,7 @@ export default function Home() {
                 <span className="absolute -bottom-[2.5px] left-0 h-[1px] w-full rounded-full bg-gradient-to-tr from-gray-400 via-red-500 to-amber-400 "></span>
                 Arghya
               </span>{" "}
-              from India. Iam an 21 y/o CS graduate. I like gaming and building
+              from India. I am an 21 y/o CS graduate. I like gaming and building
               things. I enjoy web development and logic building. Currently I am
               working at a startup and my own side projects.
             </h1>
