@@ -17,8 +17,8 @@ export default function ProjectSection() {
         </h2>
         <div className="grid w-full gap-3.5">
           {projectData.map((project) => (
-            <div key={project.id} className="relative">
-              <div className="absolute left-0 top-0 h-full w-full  "></div>
+            <div key={project.id} className="relative backdrop-blur-xl">
+              <div className="absolute left-0 top-0 h-full w-full"></div>
               <div className="flex w-full items-center justify-between gap-5 rounded border border-dashed border-neutral-300/30 dark:border-neutral-800/40">
                 <div className="w-full">
                   <div className="heading__container flex items-center justify-between border-b border-dashed p-3.5 dark:border-neutral-800/40">
