@@ -3,7 +3,7 @@ const projectData = [
     id: 1,
     name: "Coderium AI",
     description:
-      "My first project and my final college project. It's a Chatbot UI with google search and a AI image generation platform with anonymous gallery for sharing your generated images + prompts.",
+      "My first project and my final college project. It is a Chatbot UI with google search and a AI image generation platform with anonymous gallery for sharing your generated images + prompts.",
     url: "https://github.com",
   },
   {

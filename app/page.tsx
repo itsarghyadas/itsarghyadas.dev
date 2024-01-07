@@ -7,7 +7,7 @@ export default function Home() {
         <div className=" backdrop-blur-2xl">
           <main className="h-full w-full border border-t-0 border-dashed border-neutral-300/30 dark:border-neutral-700/30">
             <h1 className=" p-5 text-justify text-[15px] font-medium leading-7 text-neutral-500">
-              Hi there, I'm{" "}
+              Hi there, I am{" "}
               <span className="font-[550] text-neutral-700 dark:text-neutral-300">
                 Arghya
               </span>{" "}
