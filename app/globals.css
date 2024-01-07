@@ -70,6 +70,12 @@
   * {
     @apply m-0 border-border p-0;
   }
+
+  @font-face {
+    font-family: "cabinet-grotesk";
+    src: url(../font/CabinetGrotesk-Variable.woff2) format("woff2");
+  }
+
   body {
     @apply bg-background text-foreground;
   }

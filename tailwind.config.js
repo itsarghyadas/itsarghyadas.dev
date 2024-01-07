@@ -87,6 +87,7 @@ module.exports = {
           "Courier New",
           "monospace",
         ],
+        cabinet: ["cabinet-grotesk", "sans-serif"],
       },
     },
   },

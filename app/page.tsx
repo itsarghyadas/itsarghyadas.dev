@@ -8,9 +8,10 @@ export default function Home() {
         <div className="absolute bottom-10 right-5 -z-10 m-auto h-[220px] w-[270px] rounded-b rounded-l-xl rounded-r-md rounded-t-full bg-gradient-to-tr from-cyan-500 via-teal-500 to-orange-500 opacity-10 blur-[75px]"></div>
         <div className=" backdrop-blur-2xl">
           <main className="h-full w-full border border-t-0 border-dashed border-neutral-300/30 dark:border-neutral-700/30">
-            <h1 className=" p-5 text-justify text-[15px] font-medium leading-7 text-neutral-500">
+            <h1 className=" font-cabinet p-5 text-justify font-medium leading-[1.75rem] tracking-wide text-neutral-300/70">
               Hi there, I am{" "}
-              <span className="font-[550] text-neutral-700 dark:text-neutral-300">
+              <span className="relative bg-gradient-to-t from-orange-400 via-red-500 to-amber-500/20 bg-clip-text font-[800] text-neutral-700 text-transparent underline underline-offset-4">
+                <span className="absolute -bottom-[2.5px] left-0 h-[1px] w-full rounded-full bg-gradient-to-t from-gray-400 via-red-500 to-amber-500/20 "></span>
                 Arghya
               </span>{" "}
               from India. Iam an 21 y/o CS graduate. I like gaming and building

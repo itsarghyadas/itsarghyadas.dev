@@ -22,7 +22,7 @@ export default function ProjectSection() {
               <div className="flex w-full items-center justify-between gap-5 rounded border border-dashed border-neutral-300/30 bg-neutral-800/15 backdrop-blur-xl dark:border-neutral-800/50">
                 <div className="w-full">
                   <div className="heading__container flex items-center justify-between border-b border-dashed p-3.5 dark:border-neutral-800/50">
-                    <h1 className="flex w-full items-center gap-x-2 text-sm font-semibold text-neutral-500  dark:text-neutral-300">
+                    <h1 className=" flex w-full items-center gap-x-2 font-geistMono text-sm font-semibold text-neutral-500  dark:text-neutral-300">
                       {project.name}
                       <Link2Icon className="text-neutral-300" />
                     </h1>
@@ -56,12 +56,12 @@ export default function ProjectSection() {
                     </div>
                   </div>
                   <div className="project__content p-3.5">
-                    <p className="text-justify text-sm font-[450] leading-6 text-neutral-500 dark:text-neutral-400/90">
+                    <p className="font-geistMono text-sm font-[450] leading-6 text-neutral-500 dark:text-neutral-300/50">
                       {project.description}
                     </p>
                   </div>
                   <div className="techstack__content border-t border-dashed border-neutral-300/30 p-3.5 py-2 dark:border-neutral-800/50">
-                    <h3 className="text-[13.5px] font-medium text-teal-500">
+                    <h3 className="font-geistMono text-xs font-medium text-teal-500">
                       Nextjs + Tailwindcss + MongoDB
                     </h3>
                   </div>
