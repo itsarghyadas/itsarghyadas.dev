@@ -10,8 +10,8 @@ export default function Home() {
           <main className="h-full w-full border border-t-0 border-dashed border-neutral-300/30 dark:border-neutral-700/30">
             <h1 className=" font-cabinet p-5 text-justify font-medium leading-[1.75rem] tracking-wide text-neutral-300/70">
               Hi there, I am{" "}
-              <span className="relative bg-gradient-to-t from-orange-400 via-red-500 to-amber-500/20 bg-clip-text font-[800] text-neutral-700 text-transparent underline underline-offset-4">
-                <span className="absolute -bottom-[2.5px] left-0 h-[1px] w-full rounded-full bg-gradient-to-t from-gray-400 via-red-500 to-amber-400 "></span>
+              <span className="relative bg-gradient-to-tr from-orange-400 via-red-500 to-amber-400/80 bg-clip-text font-[800] text-neutral-700 text-transparent underline underline-offset-4">
+                <span className="absolute -bottom-[2.5px] left-0 h-[1px] w-full rounded-full bg-gradient-to-tr from-gray-400 via-red-500 to-amber-400 "></span>
                 Arghya
               </span>{" "}
               from India. Iam an 21 y/o CS graduate. I like gaming and building
