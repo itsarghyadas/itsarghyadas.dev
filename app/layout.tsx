@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
-import { GeistMono } from "geist/font/mono";
-import { Gabarito } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import "./globals.css";
-
-const gabarito = Gabarito({ subsets: ["latin", "latin-ext"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <html lang="en" className={gabarito.className} suppressHydrationWarning>
+      <html lang="en" className="font-cabinet" suppressHydrationWarning>
         <head />
         <body>
           <ThemeProvider

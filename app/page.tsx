@@ -1,7 +1,7 @@
 import ProjectSection from "@/components/project-section";
 export default function Home() {
   return (
-    <section className="home">
+    <section className="home bg-neutral-800/[0.075]">
       <div className="relative mx-auto max-w-2xl overflow-hidden">
         <div className="absolute left-0 top-5 -z-10 m-auto h-[220px] w-[270px] rounded-b rounded-l-xl rounded-r-md rounded-t-full bg-gradient-to-tr from-cyan-500 via-red-500 to-orange-500 opacity-10 blur-[75px]"></div>
 
