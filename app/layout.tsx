@@ -3,6 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -28,6 +29,7 @@ export default function RootLayout({
           >
             <Navbar />
             {children}
+            <Footer />
             <Toaster />
           </ThemeProvider>
         </body>
