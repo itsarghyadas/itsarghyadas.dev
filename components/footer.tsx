@@ -2,8 +2,8 @@ import { TwitterLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export default function Footer() {
   return (
-    <footer className="w-full">
-      <div className="border-t-0items-center mx-auto flex w-full  max-w-2xl justify-between border border-b-0 border-dashed p-5">
+    <footer className="w-full border-t border-dashed border-neutral-300/30 dark:border-neutral-700/30">
+      <div className="mx-auto flex w-full max-w-2xl items-center justify-between border border-b-0 border-t-0 border-dashed border-neutral-300/30 p-5 dark:border-neutral-700/30">
         <p className="font-geistMono text-sm font-[550] text-neutral-500 dark:text-neutral-400/90">
           Built by Arghya
         </p>

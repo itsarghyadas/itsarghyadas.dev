@@ -9,7 +9,7 @@ import projectData from "@/data/project-data";
 export default function ProjectSection() {
   return (
     <section className="project">
-      <main className="mx-auto w-full max-w-2xl border border-t-0 border-dashed border-neutral-300/30 p-5 dark:border-neutral-700/30 md:p-10">
+      <main className="mx-auto w-full max-w-2xl border border-b-0 border-t-0 border-dashed border-neutral-300/30 p-5 dark:border-neutral-700/30 md:p-10">
         <h2
           className={`pb-5 text-sm font-semibold underline underline-offset-4 ${GeistMono.className}`}
         >
