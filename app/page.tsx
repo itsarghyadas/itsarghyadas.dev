@@ -11,8 +11,8 @@ export default function Home() {
               <span className="font-[550] text-neutral-700 dark:text-neutral-300">
                 Arghya
               </span>{" "}
-              from India. I'm an 21 y/o CS graduate. I like gaming and building
-              things. I enjoy web development and logic building. Right now I'm
+              from India. Iam an 21 y/o CS graduate. I like gaming and building
+              things. I enjoy web development and logic building. Currently I am
               working at a startup and my own side projects.
             </h1>
           </main>
