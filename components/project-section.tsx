@@ -2,19 +2,27 @@ import {
   Link2Icon,
   TriangleUpIcon,
   TriangleDownIcon,
+  ArrowRightIcon,
 } from "@radix-ui/react-icons";
 import { GeistMono } from "geist/font/mono";
+import { GeistSans } from "geist/font/sans";
 import projectData from "@/data/project-data";
 
 export default function ProjectSection() {
   return (
     <section className="project">
       <main className="mx-auto w-full max-w-2xl border border-b-0 border-t-0 border-dashed border-neutral-300/30 p-5 dark:border-neutral-700/30 md:p-10">
-        <h2
-          className={`pb-5 text-sm font-semibold underline underline-offset-4 ${GeistMono.className}`}
-        >
-          PROJECTS
-        </h2>
+        <div className="flex items-center justify-between pb-5">
+          <h2
+            className={` text-sm font-semibold underline underline-offset-4 ${GeistMono.className}`}
+          >
+            TOP PROJECTS
+          </h2>
+          <h4 className="flex items-center gap-x-1 font-geistMono text-sm font-semibold text-neutral-300/80">
+            View all
+            <ArrowRightIcon className="text-neutral-400" />
+          </h4>
+        </div>
         <div className="grid w-full gap-5">
           {projectData.map((project) => (
             <div

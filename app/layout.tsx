@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { siteConfig } from "@/config/site";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  themeColor: "black",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -32,10 +37,6 @@ export const metadata: Metadata = {
     },
   ],
   creator: "itsarghyadas",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
   openGraph: {
     type: "website",
     locale: "en_US",
