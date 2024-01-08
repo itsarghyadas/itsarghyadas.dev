@@ -95,7 +95,7 @@
   .timeline__list {
     border-image: linear-gradient(
         180deg,
-        rgba(60, 74, 83, 0.5),
+        rgba(60, 74, 83, 1),
         rgba(60, 74, 83, 0)
       )
       0.75;

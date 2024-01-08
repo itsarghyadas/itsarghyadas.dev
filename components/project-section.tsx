@@ -10,11 +10,11 @@ export default function ProjectSection() {
             TOP PROJECTS
           </h2>
           <a
-            href="/project"
-            className="group flex items-center gap-x-0.5 font-geistMono text-sm font-semibold text-neutral-300/80 hover:text-neutral-300 hover:underline hover:underline-offset-4"
+            href="https://github.com/itsarghyadas"
+            className="group flex items-center gap-x-0.5 font-geistMono text-sm font-semibold text-neutral-300/80 hover:text-purple-400 active:underline active:underline-offset-4"
           >
             View all
-            <ArrowRightIcon className="translate-x-1 transform text-neutral-300/80 transition-transform  group-hover:translate-x-2 group-hover:text-neutral-300" />
+            <ArrowRightIcon className="translate-x-1 transform text-neutral-300/80 transition-transform  group-hover:translate-x-2 group-hover:text-purple-400" />
           </a>
         </div>
         <div className="grid w-full gap-5">
