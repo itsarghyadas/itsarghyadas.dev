@@ -29,7 +29,7 @@ export default function Projectpage() {
           {allProjectsData.map((project) => (
             <div
               key={project.id}
-              className="relative flex w-full items-center justify-between gap-5 rounded border border-dashed border-neutral-300/30 bg-neutral-800/20 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.5)] backdrop-blur-xl dark:border-neutral-700/40"
+              className="relative flex w-full items-center justify-between gap-5 rounded border border-dashed border-neutral-300/30 bg-neutral-800/20 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.5)] dark:border-neutral-700/40"
             >
               <div className="w-full">
                 <div className="heading__container flex items-center justify-between border-b border-dashed p-3.5 dark:border-neutral-700/40">
