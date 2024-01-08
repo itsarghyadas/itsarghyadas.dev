@@ -41,17 +41,17 @@ const timelineData = [
 export default function TimeLineSection() {
   return (
     <section className="timeline">
-      <div className="mx-auto w-full max-w-2xl border border-b-0 border-t border-dashed border-neutral-300/30 p-5 dark:border-neutral-700/30 md:p-10">
+      <div className="mx-auto w-full max-w-2xl border border-b-0 border-t border-dashed border-neutral-700/40 md:p-10">
         <h2 className="pb-5 font-geistMono text-sm font-semibold underline underline-offset-4">
           LIFE TIMELINE
         </h2>
-        <ol className="timeline__list relative border-s border-dashed border-gray-200 dark:border-neutral-800">
+        <ol className="timeline__list relative border-s border-dashed border-neutral-800">
           {timelineData.map((event) => (
             <li key={event.id} className="timeline__list__item mb-10 ms-[17px]">
-              <div className="absolute -start-[7px] mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700">
+              <div className="absolute -start-[7px] mt-1.5 h-3 w-3 rounded-full">
                 <span className="relative flex h-3 w-3">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
-                  <span className="relative inline-flex h-3 w-3 rounded-full bg-emerald-500/50"></span>
+                  <span className="relative inline-flex h-3 w-3 rounded-full bg-emerald-500"></span>
                 </span>
               </div>
               <time className="font-geistMono text-xs font-medium leading-none text-neutral-500">

@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import type { Viewport } from "next";
-import { Toaster } from "@/components/ui/sonner";
-import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { siteConfig } from "@/config/site";
@@ -72,17 +70,10 @@ export default function RootLayout({
       <html lang="en" className="font-cabinet" suppressHydrationWarning>
         <head />
         <body>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Navbar />
-            {children}
-            <Footer />
-            <Toaster />
-          </ThemeProvider>
+          <Navbar />
+          {children}
+          <Footer />
+       
         </body>
       </html>
     </>
