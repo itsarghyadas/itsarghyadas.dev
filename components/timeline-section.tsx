@@ -26,15 +26,14 @@ const timelineData = [
     year: "Jun-Dec 2023",
     title: "A dream internship at a startup",
     description:
-      "Was it overwhelming? Abso-fu*kin-lutely. I learnt a lot of things. And build one of the best real world project in that time frame",
+      "Was it overwhelming? Abso-fu*kin-lutely. But I learnt a lot of things.",
     textColour: "text-emerald-500",
   },
   {
     id: 5,
     year: "Jan 2024 - Current",
     title: "Hope to get a Full-time offer.",
-    description:
-      "Fingers crossed. I hope I get a full-time offer from the company I am interning at.",
+    description: "Fingers crossed. I hope I get a full-time offer.",
     textColour: "text-lime-500",
   },
 ];
