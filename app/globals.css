@@ -119,7 +119,17 @@
   .timeline__list:last-child .timeline__list__item {
     margin-bottom: 0;
   }
+
   .timeline__list__item:last-child .event__description {
     margin-bottom: 0;
+  }
+
+  .timeline__list {
+    border-image: linear-gradient(
+        180deg,
+        rgba(60, 74, 83, 0.5),
+        rgba(60, 74, 83, 0)
+      )
+      0.75;
   }
 }

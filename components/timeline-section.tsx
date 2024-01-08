@@ -47,7 +47,7 @@ export default function TimeLineSection() {
         </h2>
         <ol className="timeline__list relative border-s border-dashed border-gray-200 dark:border-neutral-800">
           {timelineData.map((event) => (
-            <li key={event.id} className="timeline__list__item mb-10 ms-4">
+            <li key={event.id} className="timeline__list__item mb-10 ms-[17px]">
               <div className="absolute -start-[7px] mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700">
                 <span className="relative flex h-3 w-3">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-400/50 opacity-75"></span>
