@@ -15,8 +15,7 @@ export default function Home() {
                 Arghya
               </span>{" "}
               from India. I am an 21 y/o CS graduate. I like gaming and building
-              things. I enjoy web development and logic building. Currently I am
-              working at a startup and my own side projects.
+              things. I enjoy web development.
             </h1>
           </main>
           <div className="relative">
