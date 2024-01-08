@@ -115,4 +115,11 @@
     background-size: 20px 20px;
     z-index: -1;
   }
+
+  .timeline__list:last-child .timeline__list__item {
+    margin-bottom: 0;
+  }
+  .timeline__list__item:last-child .event__description {
+    margin-bottom: 0;
+  }
 }
