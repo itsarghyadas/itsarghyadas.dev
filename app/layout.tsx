@@ -71,7 +71,7 @@ export default function RootLayout({
     <>
       <html lang="en" className="font-cabinet" suppressHydrationWarning>
         <head />
-        <body className="flex h-screen flex-col justify-between">
+        <body>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -79,7 +79,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Navbar />
-            <main className="flex-1">{children}</main>
+            <main className="fmain__children">{children}</main>
             <Footer />
             <Toaster />
           </ThemeProvider>
