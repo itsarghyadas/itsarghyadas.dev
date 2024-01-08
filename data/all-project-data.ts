@@ -26,7 +26,7 @@ const allProjectsData = [
   },
   {
     id: 5,
-    name: " URL Shortender with Analytics",
+    name: " URL Shortender",
     description:
       "A URL shortener with analytics. This is a beginner friendly Project.",
     url: "https://github.com",
@@ -35,7 +35,7 @@ const allProjectsData = [
   },
   {
     id: 6,
-    name: "Offline-first Expense Tracker",
+    name: "Expense Tracker",
     description: "An offline-first expense tracker with AI input and insights.",
     url: "https://github.com",
     status: "Active",
