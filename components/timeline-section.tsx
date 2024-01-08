@@ -18,7 +18,7 @@ const timelineData = [
     year: "2020-2023",
     title: "Graduated with a Bachelors degree in Computer Science",
     description:
-      "Did I learn anything? I don't know. But I have got a 9.44 CGPA",
+      "Did I learn anything? I don't know. But I have got a 9.44 CGPA.",
     textColour: "text-green-400/90",
   },
 ];
@@ -47,7 +47,7 @@ export default function TimeLineSection() {
               >
                 {event.title}
               </h3>
-              <p className="mb-4 font-geistMono text-sm font-semibold tracking-tighter text-neutral-400/80">
+              <p className="mb-4 mt-1.5 font-geistMono text-xs font-semibold tracking-tighter text-neutral-400/80 md:text-sm">
                 {event.description}
               </p>
             </li>
