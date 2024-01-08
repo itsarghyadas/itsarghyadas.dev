@@ -9,10 +9,13 @@ export default function ProjectSection() {
           <h2 className="font-geistMono text-sm font-semibold underline underline-offset-4">
             TOP PROJECTS
           </h2>
-          <h4 className="flex items-center gap-x-1 font-geistMono text-sm font-semibold text-neutral-300/80">
+          <a
+            href="/project"
+            className="group flex items-center gap-x-0.5 font-geistMono text-sm font-semibold text-neutral-300/80 hover:text-neutral-300 hover:underline hover:underline-offset-4"
+          >
             View all
-            <ArrowRightIcon className="text-neutral-400" />
-          </h4>
+            <ArrowRightIcon className="translate-x-1 transform text-neutral-300/80 transition-transform  group-hover:translate-x-2 group-hover:text-neutral-300" />
+          </a>
         </div>
         <div className="grid w-full gap-5">
           {projectData.map((project) => (
@@ -43,16 +46,6 @@ export default function ProjectSection() {
                         } rounded-full `}
                       ></span>
                     </span>
-
-                    <h3
-                      className={`font-geistMono text-xs font-bold ${
-                        project.status === "Active"
-                          ? "text-green-500/80"
-                          : "text-red-500/80"
-                      }`}
-                    >
-                      {project.status}
-                    </h3>
                   </div>
                 </div>
                 <div className="project__content p-3.5">

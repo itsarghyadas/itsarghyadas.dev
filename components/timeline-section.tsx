@@ -50,7 +50,7 @@ export default function TimeLineSection() {
             <li key={event.id} className="timeline__list__item mb-10 ms-[17px]">
               <div className="absolute -start-[7px] mt-1.5 h-3 w-3 rounded-full">
                 <span className="relative flex h-3 w-3">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-slate-500 opacity-75"></span>
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-slate-400 opacity-75"></span>
                   <span className="relative inline-flex h-3 w-3 rounded-full bg-neutral-500"></span>
                 </span>
               </div>
