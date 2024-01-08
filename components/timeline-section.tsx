@@ -4,14 +4,14 @@ const timelineData = [
     year: "2018",
     title: "Passed the 10th standard",
     description: "First step towards my career choice.",
-    textColour: "text-lime-400/95",
+    textColour: "text-neutral-200/90",
   },
   {
     id: 2,
     year: "2018-2020",
     title: "Passed the 12th standard",
     description: "Now am I free? No, I am not.",
-    textColour: "text-lime-400/95",
+    textColour: "text-neutral-200/90",
   },
   {
     id: 3,
@@ -19,7 +19,7 @@ const timelineData = [
     title: "Graduated with a Bachelors degree in Computer Science",
     description:
       "Did I learn anything? I don't know. But I have got a 9.44 CGPA.",
-    textColour: "text-lime-400/95",
+    textColour: "text-neutral-200/90",
   },
   {
     id: 4,
@@ -27,14 +27,14 @@ const timelineData = [
     title: "A dream internship at a startup",
     description:
       "Was it overwhelming? Abso-fu*kin-lutely. But I learnt a lot of things.",
-    textColour: "text-lime-400/95",
+    textColour: "text-neutral-200/90",
   },
   {
     id: 5,
     year: "Jan 2024 - Current",
     title: "Hope to get a Full-time offer.",
     description: "Fingers crossed. I hope I get a full-time offer.",
-    textColour: "text-lime-400/95",
+    textColour: "text-neutral-200/90",
   },
 ];
 
@@ -50,8 +50,8 @@ export default function TimeLineSection() {
             <li key={event.id} className="timeline__list__item mb-10 ms-[17px]">
               <div className="absolute -start-[7px] mt-1.5 h-3 w-3 rounded-full">
                 <span className="relative flex h-3 w-3">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-amber-400 opacity-75"></span>
-                  <span className="relative inline-flex h-3 w-3 rounded-full bg-lime-500"></span>
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-slate-500 opacity-75"></span>
+                  <span className="relative inline-flex h-3 w-3 rounded-full bg-neutral-500"></span>
                 </span>
               </div>
               <time className="font-geistMono text-xs font-medium leading-none text-neutral-500">
