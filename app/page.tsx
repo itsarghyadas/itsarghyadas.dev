@@ -10,9 +10,9 @@ export default function Home() {
         <div className="absolute bottom-10 right-5 -z-10 m-auto h-[220px] w-[270px] rounded-b rounded-l-xl rounded-r-md rounded-t-full bg-gradient-to-tr from-cyan-500 via-teal-500 to-orange-500 opacity-10 blur-[75px]"></div>
         <div className=" backdrop-blur-2xl">
           <main className="h-full w-full border border-t-0 border-dashed border-neutral-300/30 dark:border-neutral-700/30">
-            <h1 className=" p-5 text-justify font-cabinet font-medium leading-[1.75rem] tracking-wide text-neutral-300/70">
+            <h1 className=" p-5 font-geistMono text-sm font-[550] leading-[1.55rem] tracking-normal text-neutral-300/70 md:leading-[1.65rem]">
               Hi there, I am{" "}
-              <span className="relative bg-gradient-to-tr from-orange-400 via-red-500 to-amber-400/80 bg-clip-text font-[800] text-neutral-700 text-transparent underline underline-offset-4">
+              <span className="relative bg-gradient-to-tr from-orange-400 via-red-500 to-amber-400/80 bg-clip-text font-cabinet font-[900] text-neutral-700 text-transparent underline underline-offset-4">
                 <span className="absolute -bottom-[2.5px] left-0 h-[1px] w-full rounded-full bg-gradient-to-tr from-gray-400 via-red-500 to-amber-400 "></span>
                 Arghya
               </span>{" "}
