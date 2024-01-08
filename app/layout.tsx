@@ -79,7 +79,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Navbar />
-            <main className="fmain__children">{children}</main>
+            {children}
             <Footer />
             <Toaster />
           </ThemeProvider>
