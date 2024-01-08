@@ -19,7 +19,23 @@ const timelineData = [
     title: "Graduated with a Bachelors degree in Computer Science",
     description:
       "Did I learn anything? I don't know. But I have got a 9.44 CGPA.",
-    textColour: "text-green-400/90",
+    textColour: "text-orange-400/90",
+  },
+  {
+    id: 4,
+    year: "Jun-Dec 2023",
+    title: "A dream internship at a startup",
+    description:
+      "Was it overwhelming? Abso-fu*kin-lutely. I learnt a lot of things. And build one of the best real world project in that time frame",
+    textColour: "text-emerald-500",
+  },
+  {
+    id: 5,
+    year: "Jan 2024 - Current",
+    title: "Hope to get a Full-time offer.",
+    description:
+      "Fingers crossed. I hope I get a full-time offer from the company I am interning at.",
+    textColour: "text-lime-500",
   },
 ];
 
