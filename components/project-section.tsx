@@ -4,7 +4,7 @@ import projectData from "@/data/project-data";
 export default function ProjectSection() {
   return (
     <section className="project">
-      <main className="mx-auto w-full max-w-2xl border border-b-0 border-t-0 border-dashed border-neutral-700/40 md:p-10">
+      <main className="mx-auto w-full max-w-2xl border border-b-0 border-t-0 border-dashed border-neutral-700/40 p-5 md:p-10">
         <div className="flex items-center justify-between pb-5">
           <h2 className="font-geistMono text-sm font-semibold underline underline-offset-4">
             TOP PROJECTS

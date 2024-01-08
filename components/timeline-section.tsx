@@ -41,7 +41,7 @@ const timelineData = [
 export default function TimeLineSection() {
   return (
     <section className="timeline">
-      <div className="mx-auto w-full max-w-2xl border border-b-0 border-t border-dashed border-neutral-700/40 md:p-10">
+      <div className="mx-auto w-full max-w-2xl border border-b-0 border-t border-dashed border-neutral-700/40 p-5 md:p-10">
         <h2 className="pb-5 font-geistMono text-sm font-semibold underline underline-offset-4">
           LIFE TIMELINE
         </h2>

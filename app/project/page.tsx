@@ -4,8 +4,8 @@ import allProjectsData from "@/data/all-project-data";
 export default function ProjectPage() {
   return (
     <section className="project__page relative">
-      <main className="mx-auto w-full max-w-2xl border border-b-0 border-t-0 border-dashed border-neutral-700/40 md:p-10">
-        <div className="flex items-center justify-between pb-5">
+      <main className="mx-auto w-full max-w-2xl border border-b-0 border-t-0 border-dashed border-neutral-700/40 p-5 md:p-10">
+        <div className="flex items-center justify-between pb-5 ">
           <h2 className="font-geistMono text-sm font-semibold underline underline-offset-4">
             TOP PROJECTS
           </h2>

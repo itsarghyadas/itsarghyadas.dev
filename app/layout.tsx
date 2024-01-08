@@ -69,11 +69,10 @@ export default function RootLayout({
     <>
       <html lang="en" className="font-cabinet" suppressHydrationWarning>
         <head />
-        <body>
+        <body className="flex min-h-screen flex-col">
           <Navbar />
           {children}
           <Footer />
-       
         </body>
       </html>
     </>
