@@ -27,10 +27,10 @@ export default function ProjectSection() {
           {projectData.map((project) => (
             <div
               key={project.id}
-              className="relative flex w-full items-center justify-between gap-5 rounded border border-dashed border-neutral-300/30 bg-neutral-800/15 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.5)] backdrop-blur-xl dark:border-neutral-800/50"
+              className="relative flex w-full items-center justify-between gap-5 rounded border border-dashed border-neutral-300/30 bg-neutral-800/20 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.5)] backdrop-blur-xl dark:border-neutral-700/40"
             >
               <div className="w-full">
-                <div className="heading__container flex items-center justify-between border-b border-dashed p-3.5 dark:border-neutral-800/50">
+                <div className="heading__container flex items-center justify-between border-b border-dashed p-3.5 dark:border-neutral-700/40">
                   <h1 className=" flex w-full items-center gap-x-2 font-geistMono text-sm font-semibold text-neutral-500  dark:text-neutral-300">
                     {project.name}
                     <Link2Icon className="text-neutral-300" />
