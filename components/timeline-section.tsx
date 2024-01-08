@@ -62,7 +62,7 @@ export default function TimeLineSection() {
               >
                 {event.title}
               </h3>
-              <p className="event__description mb-[25px] mt-1 font-geistMono text-xs font-semibold tracking-tighter text-neutral-400/80 md:text-sm">
+              <p className="event__description mb-[25px] mt-1.5 font-geistMono text-xs font-semibold tracking-tighter text-neutral-400/80 md:mt-1 md:text-sm">
                 {event.description}
               </p>
             </li>
