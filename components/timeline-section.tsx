@@ -26,7 +26,7 @@ const timelineData = [
     year: "Jun-Dec 2023",
     title: "A dream internship at a startup",
     description:
-      "Was it overwhelming? Abso-fu*kin-lutely. But I learnt a lot of things.",
+      "Was it overwhelming? Absolutely. But I learnt a lot of things.",
     textColour: "text-neutral-200/90",
   },
   {
@@ -41,7 +41,7 @@ const timelineData = [
 export default function TimeLineSection() {
   return (
     <section className="timeline">
-      <div className="mx-auto w-full max-w-2xl border border-b-0 border-t border-dashed border-neutral-700/40 p-5 md:p-10">
+      <div className="mx-auto w-full max-w-2xl border-t border-dashed border-neutral-700/40 p-5 md:p-10">
         <h2 className="pb-5 font-geistMono text-sm font-semibold underline underline-offset-4">
           LIFE TIMELINE
         </h2>

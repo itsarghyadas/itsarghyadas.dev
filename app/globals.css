@@ -39,13 +39,18 @@
     @apply m-0 border-border p-0;
   }
 
-  @font-face {
-    font-family: "cabinet-grotesk";
-    src: url(../font/CabinetGrotesk-Variable.woff2) format("woff2");
-  }
-
   body {
     @apply bg-background text-foreground;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: #242323;
+    cursor: pointer;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #e07e0e;
   }
 
   [data-sonner-toaster] {
